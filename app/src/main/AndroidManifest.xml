@@ -37,6 +37,14 @@
             android:name=".ListProfActivity"
             android:exported="false"
             tools:ignore="Instantiatable" />
+         <activity
+            android:name=".ScrollingActivity"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".EmploiActivity"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
 
 
     </application>
