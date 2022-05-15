@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Développement Mobile" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_alignBottom="@+id/editTextTextPersonName4"
+        android:layout_marginBottom="-192dp"
+        android:text="Description :  C'est un cours comportant des Approches de développement mobile, processus à adopter pour un bon projet et une rélaisation pratique des prérequis sand Android Studio et sa liason avec Firebase"
+        android:textSize="19dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginTop="212dp"
+        android:layout_marginBottom="-119dp"
+        android:text="Upload Course" />
+
+</RelativeLayout>
